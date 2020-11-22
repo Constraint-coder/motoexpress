@@ -1,0 +1,240 @@
+*{
+	text-decoration: none;
+	
+}
+@font-face {
+  font-family: 'icono';
+  src:  url('fonts/icomoon.eot?hb38ye');
+  src:  url('fonts/icomoon.eot?hb38ye#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?hb38ye') format('truetype'),
+    url('fonts/icomoon.woff?hb38ye') format('woff'),
+    url('fonts/icomoon.svg?hb38ye#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icono:before {
+  content: "\e900";
+}
+.icon-headphones:before{
+	content: "\e910";
+}
+
+body{
+margin-top: 50px;
+background-color: black;
+background-image:url(../image/motologo.png);
+background-size:cover;
+background-repeat: no-repeat;
+
+}
+.headd{
+	text-shadow: 2px 2px 3px white;
+	text-align: center;
+	font-size:30px;
+	width: 400px;
+	margin:auto;
+	margin-top: -100px;
+	margin-bottom: 50px;
+	position: relative;
+	background-color:orange;
+opacity: 0.9;
+
+}
+.head{
+	background-color:rgba(0,0,2,5);
+	margin-top: -50px;
+	opacity: 0.9;
+
+}
+.iheader{
+	font-size:x-large;
+	background-color:black;
+	box-shadow: 1px 2px 5px orange;
+	border-bottom:10px solid orange;
+	border-right: 3px solid orange;
+	width:350px;
+	margin-left:1%;
+	color: orange;
+	
+}
+.ienlace{
+	width: 200px;
+	float:right;
+	position:relative;
+}
+
+.ienlacedos{
+	width: 200px;
+	float:left;
+	
+}
+
+.inav{
+	background-color:orange;
+	width:600px;
+	margin-left:20%;
+	border: 1px solid black;
+	height: 40px;
+	overflow: hidden;
+
+}
+h3{
+	color:red;	
+	text-transform: uppercase;
+}
+.itext{
+	margin-top: 12px;
+	opacity:0.5;
+	position: relative;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 10px;
+	width: 60%;
+	overflow:hidden; 
+	margin-left:150px;
+	color:white;
+
+	background-size: cover;
+position: relative;
+font-family: 'Yatra One', cursive;
+}
+div iframe{
+	float: right;
+	position: relative;
+	scroll-behavior: auto;
+}
+li:hover{
+	background-color: orange;
+	border-radius: 4px;
+	color:black;
+	padding:2px;
+	border:2px solid black;
+	border-bottom:1px solid orange;
+	transform: rotate(10deg);
+
+      -webkit-transform: rotate(10deg);
+
+      -moz-transform: rotate(10deg);
+
+      -o-transform: rotate(10deg);
+}
+img{
+	width: 200px;
+}
+
+.img{
+	width: 100px;
+}
+
+
+
+li{
+
+	float: right;
+	text-decoration: none;
+	list-style: none;
+	color:orange;
+	margin-right: 1px;
+	margin-left: 4px;
+	border-radius: 1px;
+	padding: 6px;
+	font-style: italic;
+	margin-top:-1em;
+	text-decoration: none;
+	border:1px solid black ;
+	background-color:black;
+	}
+	li a{
+	 	text-decoration:none;
+		color:orange;
+		
+			}
+	a:hover{
+		background-color: orange;
+	border-radius: 5px;
+		
+		
+		color:black;
+	}
+	a:after{
+		font-family: 'icono';
+		}/* para 400px o menos */
+
+
+
+	@media screen and (max-width:400px) {
+
+		.th{
+
+			width:400px;
+			font-size: 15px;
+
+		}
+		.headd{
+			font-size: 10px;
+			width: 150px;
+		}
+		.inav{
+
+			width:100%;
+		}
+		.iheader{
+			width: 200px;
+			font-size: 15px;
+			}
+			.img{
+				margin-top:-100px;
+				width: 100px;
+			}
+			.lista{
+				width: 100%;
+				margin:0px:
+
+			}
+			a{
+				font-size: 5px;
+			}
+			li{
+				font-size: 5px;
+			}
+	}
+
+ 
+
+	/* para 700px o menos */
+
+	@media screen and (max-width:700px) {
+
+		
+		.th{
+
+			width:600px;
+			font-size: 18px;
+
+		}
+
+		.inav{
+
+			width:80%;
+		}
+		.headd{
+			font-size: 15px;
+			width: 200px;
+		}
+		.iheader{
+			width: 200px;
+			font-size: 15px;
+			}
+			.img{
+				margin-top:-100px;
+				width: 150px;
+			}
+			.lista{
+				width: 90%;
+			}
+			li{
+				font-size: 12px;
+			}
+	}
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<head>
+				<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<title>motoexpres</title>
+	</head>
+		<div class="head">
+
+		<header class="iheader"><h1>MOTOEXPRESS</h1></header>
+		<div class="img"> </div>
+		<div class="headd">Envio de pequeños Documentos</div>	
+			<br>
+			<div class="inav">
+				<ul>
+					<li ><a href="../index.html" class="icono">INICIO</a></li>
+					<li><a href="razonser.html">QUIENES SOMOS</a></li>
+							
+					</ul>
+			</div>
+		</div>	
+		
+	</head>
+<body style="background-image: url(../image/serdocumentos.png"); >	
+		
+		<br>
+		<div class="th">
+
+
+
+	<form action="../BD/moto.php" method="post">
+    <div class="form-group">
+        <label for="">Nombre Completo: </label>    
+        <input type="text" name="nombre" class="form-control" placeholder="mi nombre" autofocus required>
+    </div>
+
+    <div class="form-group">
+    <label for="">Donde esta el paquete </label>
+    <textarea class="form-control" name="midireccion" placeholder="direccion" required></textarea>
+    </div>
+
+    <div class="form-group">
+    <label for="">Destino del Paquete: </label>
+    <textarea class="form-control" name="destino" placeholder="direccion" required></textarea>
+    </div>
+
+       
+
+    <div class="form-group">
+    <label for="">Descripcion de paquete: </label>
+    <textarea class="form-control" name="descripcion"  placeholder="tamaño, tipo..." required></textarea>
+    </div>
+
+     <div class="form-group">
+        <label for="" class="">telefono: </label>    
+        <input type="tel" name="telefono" class="form-control" required>
+    </div>
+
+  
+
+    
+   
+    
+    <input type="submit" name="registrar" class="btn btn-success btn-block" value="Registrar">
+</form>
+
+					
+
+		</div>
+		
+</body>
+<footer></footer>
+</html>

@@ -1,0 +1,267 @@
+*{
+	text-decoration: none;
+	
+}
+@font-face {
+  font-family: 'icono';
+  src:  url('fonts/icomoon.eot?hb38ye');
+  src:  url('fonts/icomoon.eot?hb38ye#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?hb38ye') format('truetype'),
+    url('fonts/icomoon.woff?hb38ye') format('woff'),
+    url('fonts/icomoon.svg?hb38ye#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icono:before {
+  content: "\e900";
+}
+body{
+	margin-top: 50px;
+	background-color: black;
+background-image:url(../image/motoexpress.jpg);
+background-size:cover;
+background-repeat: no-repeat;
+
+
+}
+.img3{
+	margin: auto;
+	width: 700px;
+	height:400px;
+	opacity: 0.9;
+	background-color:black; 
+}
+.lista{
+	background-color:rgba(0,0,0,255);
+	opacity:0.8;
+	border:4px solid gray;
+	width: 80%;
+	margin:auto;
+	object-position: right;
+	font-size: 20px;
+	font-style: italic;
+
+}
+.headd{
+	text-shadow: 2px 2px 3px white;
+	text-align: center;
+	font-size:30px;
+	width: 400px;
+	margin:auto;
+	margin-top: -100px;
+	margin-bottom: 50px;
+	position: relative;
+	background-color:#04B431;
+opacity: 0.9;
+
+}
+.head{
+	background-color:rgba(0,0,2,5);
+	margin-top: -50px;
+	opacity: 0.9;
+
+}
+.iheader{
+	font-size:x-large;
+	background-color:black;
+	box-shadow: 1px 2px 5px #2E9AFE;
+	border-bottom:10px solid #2E9AFE;
+	border-right: 3px solid #2E9AFE;
+	width:350px;
+	margin-left:1%;
+	color: #04B431;
+	opacity: 0.6;
+}	
+.ienlace{
+	width: 200px;
+	float:right;
+	position:relative;
+}
+.inav{
+	background-color:#04B431;
+	width:600px;
+	
+	margin-left:20%;
+	border: 1px solid black;
+	height: 40px;
+	overflow: hidden;
+	border-top: 3px solid #2E9AFE ;
+}
+.img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	opacity: 0.8;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: -100px;
+
+}
+
+h3{
+	color:red;	
+	text-transform: uppercase;
+}
+#li:hover{
+	
+	margin-left: 150px;
+	opacity:0.7;
+	font-size: 30px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 10px;
+	width: 60%;
+	overflow-wrap: break-word;
+	overflow-x: hidden;
+	
+	color:white;
+	position: relative;
+	background-color: black;
+}
+.aside{
+	margin-top:00px;
+	color: orange;
+}
+.th{
+	
+	margin-left: 150px;
+	opacity:0.7;
+	font-size: 30px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 10px;
+	width: 80%;
+	overflow-wrap: break-word;
+	overflow-x: hidden;
+	
+	color:white;
+	position: relative;
+	background-color: black;
+}
+div iframe{
+	float: right;
+	position: relative;
+	scroll-behavior: auto;
+}
+li:hover{
+	background-color: #04B431;
+	-moz-border-radius:4px;-webkit-border-radius:4px;-o-border-radius:4px;border-radius:4px;
+	color:black;
+	padding:2px;
+	border:2px solid #04B431;
+	border-bottom:1px solid #04B431;
+}
+img{
+	width: 100px;
+}
+
+li{
+
+	float: right;
+	text-decoration: none;
+	list-style: none;
+	color:#04B431;
+	margin-right: 1px;
+	margin-left: 4px;
+-moz-border-radius:1px;-webkit-border-radius:1px;-o-border-radius:1px;border-radius:1px;
+
+	padding: 6px;
+	font-style: italic;
+	margin-top:-1em;
+	text-decoration: none;
+	border:1px solid black ;
+	background-color:black;
+	}
+	li a{
+	 	text-decoration:none;
+		color:#04B431;
+		
+			}
+	a:hover{
+		background-color: #04B431;
+	-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;border-radius:5px;px;
+		
+		
+		color:black;
+	}
+	a:after{
+		font-family: 'icono';
+		}
+/* para 400px o menos */
+
+	@media screen and (max-width:400px) {
+
+		.th{
+
+			width:400px;
+			font-size: 15px;
+
+		}
+		.headd{
+			font-size: 10px;
+			width: 150px;
+		}
+		.inav{
+
+			width:100%;
+		}
+		.iheader{
+			width: 200px;
+			font-size: 15px;
+			}
+			.img{
+				margin-top:-100px;
+				width: 100px;
+			}
+			.lista{
+				width: 100%;
+				margin:0px:
+
+			}
+			a{
+				font-size: 5px;
+			}
+			li{
+				font-size: 5px;
+			}
+	}
+
+ 
+
+	/* para 700px o menos */
+
+	@media screen and (max-width:700px) {
+
+		
+		.th{
+
+			width:600px;
+			font-size: 18px;
+
+		}
+
+		.inav{
+
+			width:80%;
+		}
+		.headd{
+			font-size: 15px;
+			width: 200px;
+		}
+		.iheader{
+			width: 200px;
+			font-size: 15px;
+			}
+			.img{
+				margin-top:-100px;
+				width: 150px;
+			}
+			.lista{
+				width: 90%;
+			}
+			li{
+				font-size: 12px;
+			}
+	}
+
